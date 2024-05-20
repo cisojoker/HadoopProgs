@@ -8,7 +8,7 @@ class MRSales(MRJob):
         card_type = row[3]
         country = row[7]
    
-        yield "Country"+coutry,price
+        yield "Country"+country,price
         yield "Product"+product,1
         yield "Card"+card_type,1
         
