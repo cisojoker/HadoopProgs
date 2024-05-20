@@ -7,7 +7,7 @@ class MRWordcount(MRJob):
            yield word,1
         
     def reducer(self,key,value):
-        yield row,sum(value)
+        yield key,sum(value)
 
 if __name__=='__main__':
     MRWordcount.run()
