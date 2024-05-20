@@ -15,7 +15,7 @@ class MREmployee(MRJob):
            totalsal+=v
            cnt+=1
        avgsal=totalsal/cnt
-       yield "Gender: "+key,"total employees: "+str(cnt)+"Average Salary: "+str(AVG)
+       yield "Gender: "+key,"total employees: "+str(cnt)+"Average Salary: "+str(avgsal)
            
 if __name__=='__main__':
     MREmployee.run()
