@@ -1,4 +1,4 @@
-from mrjob.job import mrjob
+from mrjob.job import MRJob
 import csv
 class MRInsurance(MRJob):
     def mapper(self,_,line):
