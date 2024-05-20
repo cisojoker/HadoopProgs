@@ -1,3 +1,3 @@
-## To run the program use:
+# To run the program use:
 
-python filename.py inputfilename(input.txt/input.csv)
+### python filename.py inputfilename(input.txt/input.csv)
