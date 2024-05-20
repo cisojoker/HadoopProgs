@@ -10,11 +10,11 @@ class MRWeather(MRJob):
         maxtemp=-99999
         mintemp=99999
         
-        for value in values:
-            if value>maxtemp:
-                maxtemp=value
-            if value<mintemp:
-                mintemp=value
+        for v in value:
+            if v>maxtemp:
+                maxtemp=v
+            if v<mintemp:
+                mintemp=v
                 
         yield "year:"+str(key),("max temp:"+str(maxtemp)+"min temp: "+str(mintemp))
         
